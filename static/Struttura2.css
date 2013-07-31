@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Freckle+Face);
+
+#wrapper{
+   margin: auto;
+}
+
+
+#header{
+    margin: 0 auto;
+    margin-top:-16px;
+    width: 100%;
+    height: 200px;
+    background-color: #cccccc;
+
+}
+#logo{
+    font-family: 'Freckle Face', cursive;
+    color: white;
+    margin-right:10px;
+    font-size: 40px;
+    float:left;
+    height: 200px;
+
+}
+
+.menu{
+    margin:150px 10px 0px 10px;
+    display: cell;
+    color:#cccccc;
+    font-size:25px;
+    margin-left: 12px;
+    height: 30px;
+
+    float: left;
+
+}
+.menu a{
+    font-family: 'Freckle Face', cursive;
+    color: white;
+   text-decoration: none;
+}
+
+#footer{
+    float:left;
+    width:100%;
+    background-color: #cccccc;
+    height: 20px;
+}
+
+.menuHobby{
+    float: left;
+    width: 700px;
+    height:1061px;
+   /* background-image:url('../static/image/Inv.gif');*/
+    
+}
+
+#CV{
+    float: left;
+     width: 700px;
+    height: 600px;
+    
+}

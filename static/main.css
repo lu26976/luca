@@ -1,0 +1,106 @@
+
+#logo a{
+    text-decoration: none;
+    margin: 0px auto;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    background: url('/static/image/rpt.gif') repeat-y top center;
+}
+.menu a{
+
+    text-decoration: none;
+}
+#wrapper {
+    width: 992px;
+    margin: 0px auto;
+    background-color: #eee;
+
+}
+
+#wrapper ul {
+    float: left;
+}
+#content{
+    float: left;
+    width: 810px;
+}
+#right{
+    height: 100%;
+    float: left;
+    color: white;
+    background-color: #222222;
+    width: 160px;
+}
+#footer{
+    z-index: 0;
+    position: relative;
+    margin-top: -26px;
+    float: left;
+    clear: both;
+    width: 660px;
+    height: 26px;
+    background: url('/static/image/footer.gif')no-repeat top center;
+}
+.header {
+    float: left;
+    height: 215px;
+    margin-bottom: -215px;
+}
+
+#logo{
+    padding: 71px;
+    font-size: 19px;
+    margin: 0px auto;
+    width: 791px;
+    float: left;
+}
+.menu{
+    background-color: grey;
+    font-size:19px;
+    list-style: none;
+    list-style-type:none;
+    text-decoration: none;
+    margin:0px 30px 0px 30px;
+    height: 19px;
+    float: left;
+
+}
+#chiSono{
+    float: left;
+    width: 660px;
+    min-height: 100px;
+    background-color: yellow;
+}
+#hobby{
+    float: left;
+    width: 660Px;
+    height: 100%;
+    margin-top: 215px;
+    margin-bottom: 26px;
+    background-color: yellow;
+    background: url('/static/image/igort2.jpg')no-repeat top center;
+}
+#contatti{
+    float: left;
+    width: 660px;
+    min-height: 100px;
+    background-color: yellow;
+}
+#welcomeImage{
+    float: left;
+    width: 664px;
+    height: 447px;
+    margin-left: -39px;
+    background: url('/static/image/welcome.jpg')no-repeat top center;
+}
+#thxImage{
+    float: left;
+    width: 664px;
+    height: 447px;
+    margin-left: -39px;
+    background: url('/static/image/thanks.jpg')no-repeat top center;
+}
