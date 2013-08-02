@@ -1,4 +1,10 @@
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
 #logo a{
     text-decoration: none;
     margin: 0px auto;
@@ -38,12 +44,15 @@ body {
 #footer{
     z-index: 0;
     position: relative;
-    margin-top: -26px;
+    margin-top: 26px;
     float: left;
     clear: both;
     width: 660px;
     height: 26px;
     background: url('/static/image/footer.gif')no-repeat top center;
+}
+#footerfake{
+    margin-bottom: 26px;
 }
 .header {
     float: left;
@@ -51,14 +60,14 @@ body {
     margin-bottom: -215px;
 }
 
-#logo{
+#logo{ 
     padding: 71px;
     font-size: 19px;
     margin: 0px auto;
-    width: 791px;
+    width: 649px;
     float: left;
 }
-.menu{
+.menu{   
     background-color: grey;
     font-size:19px;
     list-style: none;
@@ -69,12 +78,31 @@ body {
     float: left;
 
 }
-#chiSono{
+#chiSonoBG{ 
+    background: url('/static/image/igort2.jpg')no-repeat top center;
+    opacity: 0.4;
     float: left;
-    width: 660px;
-    min-height: 100px;
-    background-color: yellow;
+    width: 660Px;
+    height: 100%;
+    margin-top: 215px;
+    margin-bottom: 26px;
+    overflow: hidden;
+    }
+
+#chiSono{
+    top: 0px;
+    position: absolute;
+    float: left;
+    width: 660Px;
+    height: 100%;
+    margin-top: 215px;
+    margin-bottom: 26px;
 }
+    
+#chiSono div{
+    color: white;
+}
+
 #hobby{
     float: left;
     width: 660Px;
@@ -84,23 +112,72 @@ body {
     background-color: yellow;
     background: url('/static/image/igort2.jpg')no-repeat top center;
 }
+#hobby ul li{
+    list-style: none;
+    list-style-type:none;
+}
 #contatti{
     float: left;
-    width: 660px;
-    min-height: 100px;
-    background-color: yellow;
+    width: 660Px;
+    margin-top: 215px;
+    margin-bottom: 26px;
+    /*background-color: yellow;*/
 }
 #welcomeImage{
     float: left;
-    width: 664px;
-    height: 447px;
-    margin-left: -39px;
+    width: 660Px;
+    height: 456px;
+    margin-top: 215px;
+    margin-bottom: 26px;
     background: url('/static/image/welcome.jpg')no-repeat top center;
 }
-#thxImage{
-    float: left;
-    width: 664px;
-    height: 447px;
-    margin-left: -39px;
-    background: url('/static/image/thanks.jpg')no-repeat top center;
+label {
+    display:block;
+    margin: 0px;
+    letter-spacing:2px;
+}
+/* Centre the page */
+.contact {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+textarea {
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    color:black;
+    height:38px;
+    background:#efefef;
+    border:none;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+#submit:hover {
+    opacity:0.9;
 }

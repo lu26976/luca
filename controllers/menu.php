@@ -21,5 +21,33 @@ $menu = array(
         'label' => 'Contatti',
         'href' => 'menuitem/contatti.php'
     ),
-        )
+);
+$comic = array(
+         array(
+        'id' => '1',
+        'label' => 'DC',
+        'href' => 'http://www.dccomics.com/'
+    ),
+    array(
+        'id' => '2',
+        'label' => 'Marvel',
+        'href' => 'http://marvel.com/'
+    ),
+    array(
+        'id' => '3',
+        'label' => 'Vertigo',
+        'href' => 'http://www.vertigocomics.com/'
+    ),
+    array(
+        'id' => '4',
+        'label' => 'Cocoino',
+        'href' => 'http://www.coconinopress.it/'
+    ),
+    array(
+        'id' => '5',
+        'label' => 'Manga',
+        'href' => 'http://www.manga.com/'
+    ),
+);
 ?>
+

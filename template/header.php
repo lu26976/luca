@@ -11,7 +11,6 @@
                     <?php echo '<a href="' . $c['submenu']['href'] . '">' . $c['submenu']['label'] . '</a>'; ?>
                 <?php endif; ?>
             </li>
-
         <?php } ?>
     </ul> 
 </div>

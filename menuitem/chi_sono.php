@@ -10,17 +10,15 @@
         <div id="wrapper">
             <div id="content">
                 <?php include("../template/header.php"); ?>
+                <div id="chiSonoBG"></div>
                 <div id="chiSono">
-                    
-                    wrnggwuiernguiwruignwiovjweionvwro
-                </div>
-                
-                
+                    <div> luca jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
+                 </div>
             </div>
             <div id="right">
             </div>
+            <?php include("../template/footer.php"); ?>
         </div>
-        <?php include("../template/footer.php"); ?>
 
     </body>
 </html>

@@ -12,7 +12,7 @@
         <div id="wrapper">
             <div id="content">
                 <?php include("template/header.php"); ?>
-                <?php echo '<div id="welcomeImage"></div>';?>
+                <div id="welcomeImage"></div>
             </div>
             <div id="right">
             </div>
